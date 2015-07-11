@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^gresappalti.it$
+RewriteRule ^(.*)$ http://www.gresappalti.it/$1 [R=301]

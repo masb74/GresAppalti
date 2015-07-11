@@ -1,0 +1,304 @@
+a { color:#2e57a6; }
+body {
+  font-family: 'raleway';
+  font-size: 13px;
+}
+.form-control {
+  margin-bottom: 10px;
+ }
+.form-group {
+  margin-bottom: 5px;
+}
+.navbar-brand {
+  padding: 2px;
+}
+ul, ol {
+    padding: 0;
+	list-style:none;
+}
+.navbar > .container .navbar-brand {
+  margin-left: 0;
+}
+.menu-sidebar {
+	margin-top:60px;
+}
+.menu-sidebar li a {
+  border-bottom: 1px solid #CCCCCC;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+.menu-sidebar li a:hover {
+	background: #ECECEC;
+}
+h3 {
+	color:#b30006;
+	margin-bottom:20px;
+	border-bottom: 1px solid #b30006;
+	padding-bottom:10px;
+}
+label {
+  font-weight: normal;
+}
+.tab-content section {
+  background: none repeat scroll 0 0 #F9F9F9;
+  border: 1px solid #cccccc;
+  margin: 40px 0;
+  padding: 0px;
+  border-radius: 4px;
+}
+fieldset[disabled] h5, fieldset[disabled] label {
+	color:#A7A7A7;
+}
+#stati-scheda label {
+	margin: 15px;
+}
+.tab-content {
+	padding-bottom:20px;
+}
+.tab-content input[type="radio"] {
+    display:none;
+}
+.tab-content label, .tab-content .tab-pane .mercato-check label {
+  background-color: #DDDDDD;
+  border-radius: 15px 15px 15px 15px;
+  display: inline-block;
+  padding: 5px 20px;
+}
+.tab-content .tab-pane label {
+  background-color: #fff;
+  display:block;
+
+}
+
+.tab-content input[type="radio"]:checked + label {
+    background-color:#5CB85C;
+	color:#fff;
+}
+.radio, .checkbox {
+  display: inline-block;
+}
+.radio + .radio, .checkbox + .checkbox {
+  margin-top: 0px;
+}
+#BoxAggiornamentoStato .radio + .radio, #BoxAggiornamentoStato  .checkbox + .checkbox {
+  margin-top: 10px;
+}
+#BoxAggiornamentoStato.tab-content section {
+  background: none;
+  border: none;
+}
+h5 {
+  background: none repeat scroll 0 0 #6C6C6C;
+  color: #C0C0C0;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 40px;
+  margin: 0;
+  padding: 0 20px;
+}
+h5.passed {
+	background:#5CB85C;
+}
+#SezioneSchedaProgetto, #SezioneSchedaGara, #SezioneSchedaTrattativa, #SezioneSchedaOrdine { display:none; }
+.box-passi {
+	margin-top:70px;
+}
+#tabella_ricerca td {
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1;
+}
+#tabella_ricerca tr {
+  display: block;
+  padding: 3px;
+}
+#tabella_ricerca {
+  background: none repeat scroll 0 0 #F9F9F9;
+}
+.risultato_ricerca {
+  position: absolute;
+  top: 34px;
+  z-index: 10;
+}
+
+.swMain > .box-passi > ul {
+  margin: 0 0 50px;
+}
+.core-box {
+  width: 80%;
+}
+#step-3 i { 
+width:15px; 
+}
+#panel_inserisci_riga {
+	padding:15px;
+}
+.has-switch span.switch-warning {
+  background-color: #58B058;
+  background-image: linear-gradient(to bottom, #58B058, #58B058);
+}
+.block { display:block; }
+
+#btn_inserisci_riga { margin-top:25px; }
+.tabs-left .tab-content, .tabs-right .tab-content {
+  overflow: hidden;
+}
+#tabella_ricerca_citta td {
+	padding:1px 8px;
+}
+#tabella_ricerca_citta tr {
+  display: inline-table;
+  width: 100%;
+}
+#tabella_ricerca_citta {
+  display: block;
+  max-height: 330px;
+  overflow: auto;
+}
+#btn_cerca_anagrafica_input {
+	display:none;
+}
+input.riga_off_ml, input.riga_off_euroml, input.riga_off_sconto, input.riga_off_kgml {
+	width:50px;
+}
+#btn_inserisci_riga_offerta {
+	margin-top:24px;
+}
+.block-center {
+	float:none;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Form Wizard
+/* ---------------------------------------------------------------------- */
+.swMain > ul {
+	display: table;
+	list-style: none;
+	margin: 0 0 20px 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+.swMain > ul li {
+	display: table-cell;
+	text-align: center;
+	width: 1%;
+}
+.swMain > ul li > a:before {
+	border-top: 4px solid #CED1D6;
+	content: "";
+	display: block;
+	font-size: 0;
+	height: 1px;
+	overflow: hidden;
+	position: relative;
+	top: 21px;
+	width: 100%;
+	z-index: 1;
+}
+.swMain > ul li:first-child > a:before {
+	left: 50%;
+	max-width: 51%;
+}
+.swMain > ul li:last-child > a:before {
+	max-width: 50%;
+	width: 50%;
+}
+.swMain > ul li > a.selected:before, .swMain li > a.done:before {
+	border-color: #5293C4;
+}
+.swMain > ul .stepNumber {
+	background-color: #FFFFFF;
+	border: 5px solid #CED1D6;
+	border-radius: 100% 100% 100% 100%;
+	color: #546474;
+	display: inline-block;
+	font-size: 15px;
+	height: 40px;
+	line-height: 30px;
+	position: relative;
+	text-align: center;
+	width: 40px;
+	z-index: 2;
+}
+.swMain > ul li > a.selected .stepNumber {
+	border-color: #5293C4;
+}
+.swMain ul li > a.done .stepNumber {
+	border-color: #5293C4;
+	background-color: #5293C4;
+	color: #fff;
+	text-indent: -9999px;
+}
+.swMain ul li > a.done .stepNumber:before {
+	content: "\f00c";
+	display: inline;
+	float: right;
+	font-family: FontAwesome;
+	font-weight: 300;
+	height: auto;
+	text-shadow: none;
+	margin-right: 7px;
+	text-indent: 0;
+}
+.swMain ul li > a.done.wait .stepNumber {
+	background-color: #F6F6F6 !important;
+	color: #CCCCCC !important;
+	text-indent: -0px !important;
+}
+.swMain ul li > a.done.wait .stepNumber:before {
+	content: "" !important;
+}
+.swMain > ul li .stepDesc {
+	color: #949EA7;
+	display: block;
+	font-size: 14px;
+	margin-top: 4px;
+	max-width: 100%;
+	table-layout: fixed;
+	text-align: center;
+	word-wrap: break-word;
+	z-index: 104;
+}
+.swMain > ul li > a.selected .stepDesc, .swMain li > a.done .stepDesc {
+	color: #2B3D53;
+}
+.swMain > ul li > a:hover {
+	text-decoration: none;
+}
+.swMain > ul li > a.disabled {
+	cursor: default;
+}
+.swMain .progress {
+	margin-bottom: 30px;
+}
+.swMain .stepContainer {
+	height: auto !important;
+}
+.swMain .loader {
+	display: none;
+}
+.swMain [class^="button"], .swMain [class*=" button"] {
+	display: none;
+}
+.swMain .close {
+	display: none;
+}
+.alert-warning {
+  float: left;
+  margin-left: 15px;
+  width: 90%;
+  background-color: #f7f7f7;
+  border-color: #ccc;
+  color: #000;
+}
+#dettagli_ref {
+	text-transform:uppercase;
+	padding-bottom:15px;
+}
+.titolo {
+	font-weight:bold;
+}

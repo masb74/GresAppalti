@@ -1,0 +1,3 @@
+# Directories
+User-agent: *
+Disallow: /
